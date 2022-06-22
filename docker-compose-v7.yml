@@ -21,7 +21,8 @@ services:
                 soft: -1
                 hard: -1
         volumes:
-            - ./data:/usr/share/elasticsearch/data
+            #- ./data:/usr/share/elasticsearch/data
+			- /ata:/var/lib/elasticsearch/data
     # elasticsearch browser
     dejavu:
         image: appbaseio/dejavu:3.6.0
