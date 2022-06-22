@@ -21,7 +21,6 @@ services:
                 soft: -1
                 hard: -1
         volumes:
-            #- ./data:/usr/share/elasticsearch/data
 			 - ./data:/var/lib/elasticsearch/data
     # elasticsearch browser
     dejavu:
